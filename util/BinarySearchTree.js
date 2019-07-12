@@ -10,7 +10,7 @@ export default class BinarySearchTree {
       this.root = new Node(data);
       return;
     } else {
-      const searchTree = function(node) {
+      const searchTree = (node) => {
         if (data < node.data) {
           if (node.left === null) {
             node.left = new Node(data);
@@ -75,7 +75,7 @@ export default class BinarySearchTree {
     return false;
   }
   remove(data) {
-    const removeNode = function(node, data) {
+    const removeNode = (node, data) => {
       if (node == null) {
         return null;
       }
@@ -116,14 +116,14 @@ export default class BinarySearchTree {
   findMinHeight(node = this.root) {
       if (node == null) {
           return -1;
-      };
+      }
       let left = this.findMinHeight(node.left);
       let right = this.findMinHeight(node.right);
       if (left < right) {
           return left + 1;
       } else {
           return right + 1;
-      };
+      }
   }
   findMaxHeight(node = this.root) {
       if (node == null) {
