@@ -4,7 +4,6 @@ import  BinarySearchTree from './util/BinarySearchTree.js';
 window.onload = () => {
   
   const bst = new BinarySearchTree();
-
     bst.add(9);
     bst.add(4);
     bst.add(17);
