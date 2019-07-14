@@ -7,4 +7,4 @@ A Binary Search Tree data structure is one that very much would look like a tree
  
 This allows use to efficiently scan through the tree to find a particular node. In each check can roughly eliminating about half the remaining nodes until we find the node we are looking for.  
  
-The BigO for a binary search tree O(log n) on average and is `O(n)` in the worst case scenario.
+The BigO for a binary search tree `O(log n)` on average and is `O(n)` in the worst case scenario.
