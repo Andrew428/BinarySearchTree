@@ -6,8 +6,11 @@ A Binary Search Tree data structure is one that very much would look like a tree
   ![Screen Shot 2019-07-14 at 1 10 01 PM](https://user-images.githubusercontent.com/11912649/61187573-b796bf00-a638-11e9-879e-ffb8dc203361.png)  
 
 Images sourced from:
+
 https://www.youtube.com/watch?v=5cU1ILGy6dM
+
 https://medium.com/employbl/depth-first-and-breadth-first-search-on-trees-in-javascript-58dcd6ff8de1
+
 https://tchol.org/explore/transparent-structures-of-the-eye.html
 
                  
